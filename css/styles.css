@@ -1,0 +1,51 @@
+/* styles.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #ADD8E6;
+  font-family: Arial;
+}
+
+input[type="text"] {
+  font-size: 1.5em;
+  padding: 10px;
+  border: solid 5px #c9c9c9;
+  transition: border 0.3s;
+}
+
+input[type="text"]:focus, input[type="text"].focus {
+  border: solid 5px #969696;
+}
+
+button {
+  margin-top: 20px;
+  color: #28aadc;
+  background-color: #fff;
+  border: 2px solid #28aadc;
+  border-radius: 0;
+  padding: 12px 18px;
+}
+
+button:hover {
+  background: #28aadc;
+  color: #fff;
+}
+
+#weather {
+  margin: 50px auto;
+  padding: 20px;
+  background: #dadada;
+  border: 5px solid #969696;
+  display: none;
+}
+
+.hourly {
+  border: 3px solid #336699;
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  width: 200px;
+}
